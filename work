@@ -28,3 +28,24 @@ emp1 = employee('Paul',35,11,15,60);
 grosspay=emp1.computeWeeklyPay(39);
 tax=emp1.computeTax(445);
 print(grosspay,tax);
+
+
+
+import unittest
+
+class TestEmployee(unittest.TestCase):
+
+    def setUp(self):
+        self.emp1 = employee('Navin', 35, 11, 15, 70)
+
+    def test_computeWeeklyPay(self):
+        grosspay = self.emp1.computeWeeklyPay(39)
+        expected_value = 445
+        self.assertEqual(int(grosspay), expected_value)
+
+    def test_computeTax(self):
+        tax = self.emp1.computeTax(445)
+        expected_value = 108
+        self.assertEqual(int(tax), expected_value)
+
+unittest.main(argv=[''], verbosity=2, exit=False)
