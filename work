@@ -1,1 +1,27 @@
 hi
+
+class employee:
+    def __init__(self, name, weeklyhours, rate, overtimeRate, weeklytaxcredit):
+        self.name = name
+        self.weeklyhours = weeklyhours
+        self.rate = rate
+        self.overtimeRate = overtimeRate
+        self.weeklytaxcredit = weeklytaxcredit
+
+
+    def computeWeeklyPay (self, hours):
+        # if weekly hours is 35, rate is 11, overtimeRate is 15 and hours is 39 computeWeeklyPay
+        # return 35 * 11 + 4 * 15 = 445
+        if (hours > self.weeklyhours):
+            return (int(self.weeklyhours) * int(self.rate)) + ((int(hours) - int(self.weeklyhours)) *  self.overtimeRate)
+        else:
+            return (int(self.weeklyhours) * int(self.rate))
+
+
+    def computeTax(self, grossPay):
+        return (0.4* int(grossPay)) - int(self.weeklytaxcredit)
+
+emp1 = employee('Paul',35,11,15,60);
+grosspay=emp1.computeWeeklyPay(39);
+tax=emp1.computeTax(445);
+print(grosspay,tax);
