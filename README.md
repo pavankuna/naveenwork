@@ -1,13 +1,17 @@
-oT (Internet of Things) devices are a growing cybersecurity concern as they continue to be widely adopted in various industries and personal environments. These devices have unique security risks due to their inherent design and connectivity features. Some of the cybersecurity risks associated with IoT devices include:
+The defense in depth (DiD) approach is a cybersecurity strategy that involves implementing multiple layers of security controls to protect against various types of cyber threats. Each layer provides an additional barrier to prevent or mitigate an attack, and the goal is to make it more difficult for attackers to breach the system and access sensitive data or assets.
 
-Weak or nonexistent authentication and authorization mechanisms: Many IoT devices have limited or weak authentication and authorization mechanisms, making them vulnerable to unauthorized access and control. This can result in attackers taking over the devices or using them to launch further attacks.
+Here's an example of how implementing layers of cybersecurity (DiD) helps to protect a company's assets:
 
-Insecure communication channels: IoT devices often use insecure communication protocols, such as HTTP or MQTT, which can be intercepted and manipulated by attackers, leading to data breaches, device hijacking, or denial-of-service attacks.
+Let's say a company has a web application that is accessible to the public. The company can implement several layers of security controls to protect this application from potential cyber threats:
 
-Lack of security updates and patches: Many IoT devices are not designed with security in mind, and manufacturers often fail to provide timely updates and patches to address known vulnerabilities. This leaves the devices exposed to new and evolving threats.
+Layer 1 - Network Security: The first layer of defense could involve implementing network security controls, such as firewalls and intrusion detection systems, to prevent unauthorized access to the network and the web application.
 
-Physical security risks: IoT devices are often deployed in unsecured environments, such as homes or public spaces, making them vulnerable to physical attacks or theft.
+Layer 2 - Application Security: The second layer could involve implementing application security controls, such as input validation and access controls, to prevent common application-level attacks, such as SQL injection and cross-site scripting (XSS).
 
-A real-world example of the cybersecurity risks associated with IoT devices is the Mirai botnet attack in 2016. In this attack, a group of attackers used malware to take over thousands of IoT devices, such as security cameras and routers, that were connected to the internet. The attackers used these devices to launch a massive distributed denial-of-service (DDoS) attack on a DNS provider, which caused widespread disruptions to popular websites and online services.
+Layer 3 - User Authentication and Authorization: The third layer could involve implementing user authentication and authorization controls, such as multi-factor authentication (MFA) and role-based access controls (RBAC), to ensure that only authorized users can access the web application.
 
-The Mirai botnet attack was possible due to the weak security of the IoT devices involved. Many of the devices had default usernames and passwords that were easily guessable, and they were not designed with adequate security controls to prevent unauthorized access. The attack highlighted the need for improved security measures for IoT devices, including better authentication mechanisms, secure communication protocols, and timely security updates and patches.
+Layer 4 - Endpoint Security: The fourth layer could involve implementing endpoint security controls, such as antivirus and endpoint detection and response (EDR) solutions, to protect against malware and other threats that may target endpoint devices, such as laptops and mobile phones.
+
+Layer 5 - Physical Security: The fifth layer could involve implementing physical security controls, such as surveillance cameras and access controls, to protect the physical infrastructure of the company, such as the server room where the web application is hosted.
+
+By implementing multiple layers of security controls, the company can significantly reduce the risk of a successful cyber attack on its web application. Even if an attacker manages to bypass one layer of defense, there are still multiple layers of defense that they would need to overcome to access the sensitive data or assets. This makes it much more difficult and time-consuming for attackers to achieve their goals, and it increases the chances of detecting and mitigating the attack before significant damage is done.
