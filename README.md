@@ -1,10 +1,19 @@
-<div bis_skin_checked="1">
-  <strong>c)</strong> Describe how 
-  <strong>social engineering</strong> has become an increasing concern for companies in recent years.
-  <br> In your answer, discuss the typical methods employed in social engineering,
-  <br> the motivation of the attackers, staff training/awareness and provide an
-  <br> example of social engineering in practice.
-  <br>
-  <br>
-  <br>
- </div>
+Social engineering is a type of cyber assault that involves tricking people into disclosing private information or taking specific activities that could jeopardize an organization's security. Due to the prevalence and rising level of sophistication of these attacks, it has grown in importance for businesses. Even when a company has strong technical security measures in place, social engineering attacks can often succeed.
+
+Social engineering assaults frequently use phishing, pretexting, baiting, and quid pro quo techniques. Phishing is the practice of sending emails or messages that look like they are coming from a reliable source in an effort to fool recipients into clicking on dangerous links or installing malware. Pretexting is the act of pretending to be someone in a position of power or making up a story to get access to confidential information. In order to infect a computer with malware, baiting entails leaving physical media, such as a USB drive, in a place where it is likely to be discovered. Quid pro quo is the practice of providing anything of value in exchange for private information, such as a gift card or access to a closed location.
+
+Attackers that employ social engineering techniques may have a variety of goals in mind, but frequently they want to get private data like passwords or financial information so they may benefit financially. They might also try to transmit malware or ransomware, steal intellectual property, or interfere with an organization's activities.
+
+Any successful social engineering defense strategy must include personnel awareness and training. This entails training staff members about the various strategies attackers can employ and giving them the abilities and information required to recognize and counteract such social engineering attacks. Organizations can lessen the likelihood that social engineering assaults will succeed by training personnel to remain watchful.
+
+One example of social engineering in practice is the 2014 data breach at JPMorgan Chase, in which hackers gained access to the personal information of over 76 million households and 7 million small businesses. The attackers used a combination of phishing and pretexting tactics to trick employees into divulging their login credentials, which they then used to gain access to the bank's systems. The attack highlighted the need for increased staff training and awareness to prevent similar attacks from occurring in the future.
+
+CEO Fraud: This is a type of spear phishing attack where attackers impersonate a company's CEO or another high-level executive in an email or message, and request an urgent wire transfer or payment to be made to a particular account. In 2019, Toyota Boshoku Corporation lost $37 million to such an attack.
+
+Tech Support Scams: In this type of social engineering attack, attackers pretend to be from a legitimate tech support company and contact individuals, claiming that their computer has been infected with malware or viruses. They then persuade the individual to grant remote access to their computer or to pay for bogus software or services. In 2018, a 76-year-old woman lost $200,000 to a tech support scam.
+
+Vishing: This is a type of voice phishing where attackers use a phone call to impersonate a representative of a legitimate company or organization and trick the recipient into revealing sensitive information or making a payment. In 2020, a fake Amazon Prime customer service representative used vishing to steal over $100,000 from an elderly couple.
+
+Baiting: In this type of social engineering attack, attackers leave physical media, such as a USB drive or a CD, containing malware in a public place or at the target company's premises. In 2016, the network of a Ukrainian power company was infected with malware through a booby-trapped Excel document on a USB drive left in a parking lot. This resulted in the loss of power to thousands of households.
+
+These examples demonstrate the wide variety of tactics that attackers use in social engineering attacks, as well as the potentially significant financial or operational impact that such attacks can have on businesses and individuals.
