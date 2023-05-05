@@ -1,17 +1,10 @@
-The defense in depth (DiD) approach is a cybersecurity strategy that involves implementing multiple layers of security controls to protect against various types of cyber threats. Each layer provides an additional barrier to prevent or mitigate an attack, and the goal is to make it more difficult for attackers to breach the system and access sensitive data or assets.
+Despite the fact that symmetric encryption is a potent encryption technique, it is not advised to use only symmetric encryption for all network-based applications due to many possible risks.
 
-Here's an example of how implementing layers of cybersecurity (DiD) helps to protect a company's assets:
+First, for symmetric encryption to work, the sender and receiver must share the same secret key. This implies that all the data that was encrypted with that key can be decrypted if an attacker obtains it. If a business only uses symmetric encryption, and an attacker is able to get their hands on the secret key, then all the data encrypted with that key is vulnerable.
 
-Let's say a company has a web application that is accessible to the public. The company can implement several layers of security controls to protect this application from potential cyber threats:
+Second, certain sorts of attacks, such as brute-force ones, which require testing every potential key until the right one is discovered, can exploit symmetric encryption. Longer key lengths can make brute-force assaults more challenging, but they can also add to the amount of work needed to encrypt and decrypt the data.
 
-Layer 1 - Network Security: The first layer of defense could involve implementing network security controls, such as firewalls and intrusion detection systems, to prevent unauthorized access to the network and the web application.
+Third, large-scale systems may find it challenging to manage symmetric encryption. It can be difficult to distribute and manage the secret keys for all of these systems in a secure manner, for instance, if a corporation has thousands of users and hundreds of servers.
+On the other hand, adopting symmetric encryption exclusively has the potential benefit of being faster and more effective than asymmetric encryption. Data encryption and decryption using asymmetric encryption require the use of two different keys, a public key and a private key, which can be slower and more computationally expensive.
 
-Layer 2 - Application Security: The second layer could involve implementing application security controls, such as input validation and access controls, to prevent common application-level attacks, such as SQL injection and cross-site scripting (XSS).
-
-Layer 3 - User Authentication and Authorization: The third layer could involve implementing user authentication and authorization controls, such as multi-factor authentication (MFA) and role-based access controls (RBAC), to ensure that only authorized users can access the web application.
-
-Layer 4 - Endpoint Security: The fourth layer could involve implementing endpoint security controls, such as antivirus and endpoint detection and response (EDR) solutions, to protect against malware and other threats that may target endpoint devices, such as laptops and mobile phones.
-
-Layer 5 - Physical Security: The fifth layer could involve implementing physical security controls, such as surveillance cameras and access controls, to protect the physical infrastructure of the company, such as the server room where the web application is hosted.
-
-By implementing multiple layers of security controls, the company can significantly reduce the risk of a successful cyber attack on its web application. Even if an attacker manages to bypass one layer of defense, there are still multiple layers of defense that they would need to overcome to access the sensitive data or assets. This makes it much more difficult and time-consuming for attackers to achieve their goals, and it increases the chances of detecting and mitigating the attack before significant damage is done.
+Overall, symmetric encryption is a strong encryption technique with numerous real-world uses, but due to potential security risks and administration difficulties, it is not advised to use it as the sole encryption method for all network-based systems. Instead, a layered approach to security should be used, combining symmetric and asymmetric encryption with other security measures like access controls, firewalls, and intrusion detection systems.
